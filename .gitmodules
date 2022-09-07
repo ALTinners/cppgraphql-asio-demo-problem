@@ -1,0 +1,3 @@
+[submodule "thirdparty/cppgraphqlgen"]
+	path = thirdparty/cppgraphqlgen
+	url = https://github.com/microsoft/cppgraphqlgen

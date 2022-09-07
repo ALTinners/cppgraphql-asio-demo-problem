@@ -1,0 +1,10 @@
+# Begin Schema
+schema {
+    query: Query
+}
+
+# Begin Query/Mutation/Subscription
+type Query {
+    # Get status code for a http address you plug in
+    statusCode(address: String!): Int
+}
